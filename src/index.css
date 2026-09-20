@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #050308;
+    color: #f5f3f7;
+    overflow-x: hidden;
+  }
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-cormorant {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.font-bengali {
+  font-family: 'Noto Serif Bengali', serif;
+}
+
+/* Luxury Glassmorphism */
+.glass-luxury {
+  background: rgba(18, 10, 24, 0.65);
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  border: 1px solid rgba(255, 215, 230, 0.12);
+  box-shadow: 0 30px 60px -12px rgba(0, 0, 0, 0.7),
+              0 0 40px -10px rgba(225, 29, 72, 0.15),
+              inset 0 1px 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+.glass-luxury-subtle {
+  background: rgba(22, 12, 28, 0.45);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 16px 32px -8px rgba(0, 0, 0, 0.5),
+              inset 0 1px 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.glass-pill {
+  background: rgba(35, 18, 42, 0.55);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 180, 200, 0.18);
+  box-shadow: 0 8px 24px -4px rgba(0, 0, 0, 0.4),
+              0 0 20px -4px rgba(244, 63, 94, 0.2);
+}
+
+/* Soft light glows */
+.text-glow-rose {
+  text-shadow: 0 0 20px rgba(244, 63, 94, 0.6), 0 0 40px rgba(225, 29, 72, 0.3);
+}
+
+.text-glow-gold {
+  text-shadow: 0 0 20px rgba(251, 191, 36, 0.5), 0 0 40px rgba(217, 119, 6, 0.25);
+}
+
+.text-glow-white {
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.7), 0 0 30px rgba(255, 255, 255, 0.3);
+}
+
+/* Vignette gradient overlay */
+.cinematic-vignette {
+  background: radial-gradient(circle at center, transparent 40%, rgba(5, 3, 8, 0.85) 90%, #050308 100%);
+  pointer-events: none;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Made For You ❤️",
+  "description": "A luxury, cinematic 3D interactive digital love letter made personally by Sahid.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
